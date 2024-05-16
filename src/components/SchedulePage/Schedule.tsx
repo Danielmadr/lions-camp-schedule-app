@@ -10,7 +10,7 @@ interface Tarefa {
   tarefa: string;
 }
 
-const Tela3: React.FC<{ title: string; tarefas: Tarefa[] }> = ({
+const Schedule: React.FC<{ title: string; tarefas: Tarefa[] }> = ({
   title,
   tarefas,
 }) => {
@@ -54,10 +54,10 @@ const Tela3: React.FC<{ title: string; tarefas: Tarefa[] }> = ({
         </ul>
       </div>
       <div className="tela3-button">
-        <Button label="Return" link="/tela2" />
+        <Button label="Return" link="/calendar" />
       </div>
     </div>
   );
 };
 
-export default Tela3;
+export default Schedule;

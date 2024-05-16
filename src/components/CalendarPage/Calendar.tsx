@@ -1,21 +1,21 @@
 import React from "react";
-import "./Tela2.css";
+import "./Calendar.css";
 import img from "../../assets/lions-logo.png";
 import flag from "../../assets/brasil-flag.png";
 import Button from "../Button/Button";
 
-const Tela2: React.FC = () => {
+const Calendar: React.FC = () => {
   const buttons = [
-    { label: "18/07", link: "/tarefas1" },
-    { label: "19/07", link: "/tarefas2" },
-    { label: "20/07", link: "/tarefas3" },
-    { label: "21/07", link: "/tarefas4" },
-    { label: "22/07", link: "/tarefas5" },
-    { label: "23/07", link: "/tarefas6" },
-    { label: "24/07", link: "/tarefas7" },
-    { label: "25/07", link: "/tarefas8" },
-    { label: "26/07", link: "/tarefas9" },
-    { label: "27/07", link: "/tarefas10" },
+    { label: "18/07", link: "/day18" },
+    { label: "19/07", link: "/day19" },
+    { label: "20/07", link: "/day20" },
+    { label: "21/07", link: "/day21" },
+    { label: "22/07", link: "/day22" },
+    { label: "23/07", link: "/day23" },
+    { label: "24/07", link: "/day24" },
+    { label: "25/07", link: "/day25" },
+    { label: "26/07", link: "/day26" },
+    { label: "27/07", link: "/day27" },
   ];
 
   return (
@@ -40,4 +40,4 @@ const Tela2: React.FC = () => {
   );
 };
 
-export default Tela2;
+export default Calendar;

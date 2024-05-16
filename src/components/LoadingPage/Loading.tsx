@@ -1,14 +1,14 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import "./Tela1.css";
+import "./Loading.css";
 import img from "../../assets/lions-logo.png";
 
-const Tela1: React.FC = () => {
+const Loading: React.FC = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      navigate("/tela2");
+      navigate("/calendar");
     }, 500); // 500 milissegundos = 0,5 segundos
 
     return () => clearTimeout(timer); // Limpa o timer ao desmontar o componente
@@ -22,4 +22,4 @@ const Tela1: React.FC = () => {
   );
 };
 
-export default Tela1;
+export default Loading;

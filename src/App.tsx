@@ -1,19 +1,19 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Tela1 from "./components/Tela1";
-import Tela2 from "./components/Tela2";
-import Tela3 from "./components/Tela3";
+import Loading from "./components/LoadingPage/Loading";
+import Calendar from "./components/CalendarPage/Calendar";
+import Schedule from "./components/SchedulePage/Schedule";
 
 const App: React.FC = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Tela1 />} />
-        <Route path="/tela2" element={<Tela2 />} />
+        <Route path="/" element={<Loading />} />
+        <Route path="/calendar" element={<Calendar />} />
         <Route
-          path="/tarefas1"
+          path="/day18"
           element={
-            <Tela3
+            <Schedule
               title="18"
               tarefas={[
                 { hora: "14:00", tarefa: "Arrival and Check-in" },
@@ -27,9 +27,9 @@ const App: React.FC = () => {
           }
         />
         <Route
-          path="/tarefas2"
+          path="/day19"
           element={
-            <Tela3
+            <Schedule
               title="19"
               tarefas={[
                 { hora: "7:00", tarefa: "Breakfast" },
@@ -44,9 +44,9 @@ const App: React.FC = () => {
           }
         />
         <Route
-          path="/tarefas3"
+          path="/day20"
           element={
-            <Tela3
+            <Schedule
               title="20"
               tarefas={[
                 { hora: "7:00", tarefa: "Breakfast" },
@@ -65,9 +65,9 @@ const App: React.FC = () => {
           }
         />
         <Route
-          path="/tarefas4"
+          path="/day21"
           element={
-            <Tela3
+            <Schedule
               title="21"
               tarefas={[
                 { hora: "7:00", tarefa: "Breakfast" },
@@ -80,9 +80,9 @@ const App: React.FC = () => {
           }
         />
         <Route
-          path="/tarefas5"
+          path="/day22"
           element={
-            <Tela3
+            <Schedule
               title="22"
               tarefas={[
                 { hora: "7:00", tarefa: "Breakfast" },
@@ -99,9 +99,9 @@ const App: React.FC = () => {
           }
         />
         <Route
-          path="/tarefas6"
+          path="/day23"
           element={
-            <Tela3
+            <Schedule
               title="23"
               tarefas={[
                 { hora: "6:00", tarefa: "Breakfast" },
@@ -111,9 +111,9 @@ const App: React.FC = () => {
           }
         />
         <Route
-          path="/tarefas7"
+          path="/day24"
           element={
-            <Tela3
+            <Schedule
               title="24"
               tarefas={[
                 { hora: "7:00", tarefa: "Breakfast" },
@@ -125,9 +125,9 @@ const App: React.FC = () => {
           }
         />
         <Route
-          path="/tarefas8"
+          path="/day25"
           element={
-            <Tela3
+            <Schedule
               title="25"
               tarefas={[
                 { hora: "7:00", tarefa: "Breakfast" },
@@ -140,9 +140,9 @@ const App: React.FC = () => {
           }
         />
         <Route
-          path="/tarefas9"
+          path="/day26"
           element={
-            <Tela3
+            <Schedule
               title="26"
               tarefas={[
                 { hora: "7:00", tarefa: "Breakfast" },
@@ -153,9 +153,9 @@ const App: React.FC = () => {
           }
         />
         <Route
-          path="/tarefas10"
+          path="/day27"
           element={
-            <Tela3
+            <Schedule
               title="27"
               tarefas={[
                 { hora: "7:00", tarefa: "Breakfast" },
