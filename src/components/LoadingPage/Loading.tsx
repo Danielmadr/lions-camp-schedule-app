@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Tela1.css";
-import img from "../assets/lions-logo.png";
+import img from "../../assets/lions-logo.png";
 
 const Tela1: React.FC = () => {
   const navigate = useNavigate();

@@ -1,8 +1,8 @@
 import React from "react";
 import "./Tela2.css";
-import img from "../assets/lions-logo.png";
-import flag from "../assets/brasil-flag.png";
-import Button from "./Button";
+import img from "../../assets/lions-logo.png";
+import flag from "../../assets/brasil-flag.png";
+import Button from "../Button/Button";
 
 const Tela2: React.FC = () => {
   const buttons = [

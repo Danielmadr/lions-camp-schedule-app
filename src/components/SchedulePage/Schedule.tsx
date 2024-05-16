@@ -1,9 +1,9 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import "./Tela3.css";
-import img from "../assets/lions-logo.png";
-import flag from "../assets/brasil-flag.png";
-import Button from "./Button";
+import "./Schedule.css";
+import img from "../../assets/lions-logo.png";
+import flag from "../../assets/brasil-flag.png";
+import Button from "../Button/Button";
 
 interface Tarefa {
   hora: string;
