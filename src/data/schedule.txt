@@ -1,0 +1,9 @@
+8:00 - Reunião de equipe
+9:00 - Revisão de código
+10:00 - Tarefa A
+11:00 - Almoço
+12:00 - Tarefa B
+13:00 - Tarefa C
+14:00 - Reunião com o cliente
+15:00 - Responder emails
+16:00 - Preparar apresentação

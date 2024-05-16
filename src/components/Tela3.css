@@ -15,16 +15,15 @@
 }
 
 .tela3-circle {
-  background-color: #00529c; /* Azul */
+  background-color: #00529c;
   color: white;
   border-radius: 50%;
   padding: 10px;
-  margin-bottom: 20px;
-  display: inline-block;
+  margin-top: 20px;
 }
 
 .tela3-circle-text {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 .tela3-task-list {
@@ -38,23 +37,25 @@
 }
 
 .tela3-task-item.even {
-  background-color: #e0f2ff; /* Azul claro */
+  background-color: #e0f2ff;
 }
 
 .tela3-task-item.odd {
-  background-color: #d1e7ff; /* Azul escuro */
+  background-color: #d1e7ff;
 }
 
 .tela3-task-hora {
+  font-size: 1.1rem;
   font-weight: bold;
 }
 
 .tela3-task-text {
-  margin-left: 10px;
+  font-size: 1.1rem;
+  font-weight: 400;
 }
 
 .tela3-back-button {
-  background-color: #00529c; /* Azul */
+  background-color: #00529c;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -66,12 +67,13 @@
 }
 
 .tela3-back-button:hover {
-  background-color: #0056b3; /* Azul mais escuro */
+  background-color: #0056b3;
 }
 
 .task-container {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  gap: 10px;
 }
 
 .hora-container {
@@ -94,4 +96,15 @@
 .image-small {
   width: auto;
   height: 40px;
+}
+
+.task-content {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.tela3-button {
+  display: flex;
+  justify-content: flex-end;
 }

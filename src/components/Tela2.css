@@ -21,8 +21,8 @@
 
 .tela2-buttons {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 colunas */
-  gap: 10px; /* Espaçamento entre os botões */
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
   margin: 20px 0;
 }
 
@@ -35,13 +35,13 @@
 
 .image-title {
   margin-top: 20px;
-  font-size: 2rem;
+  font-size: 1.8rem;
   text-align: center;
   width: 300px;
 }
 
 .tela2-image {
-  width: 300px;
+  width: 200px;
 }
 
 .flag-container {

@@ -14,16 +14,13 @@ const App: React.FC = () => {
           path="/tarefas1"
           element={
             <Tela3
-              title="18/07"
+              title="18"
               tarefas={[
-                {
-                  hora: "14:00",
-                  tarefa: "Arrival and accommodation of the youth",
-                },
-                { hora: "17:00", tarefa: "Snack" },
+                { hora: "14:00", tarefa: "Arrival and Check-in" },
+                { hora: "17:00", tarefa: "Snack Break" },
                 {
                   hora: "19:00",
-                  tarefa: "International banquet and camp opening",
+                  tarefa: "Welcome International Dinner and Camp Opening",
                 },
               ]}
             />
@@ -33,15 +30,15 @@ const App: React.FC = () => {
           path="/tarefas2"
           element={
             <Tela3
-              title="19/07"
+              title="19"
               tarefas={[
                 { hora: "7:00", tarefa: "Breakfast" },
-                { hora: "8:00", tarefa: "Knowledge Trail" },
+                { hora: "8:00", tarefa: "Educational Trail" },
                 { hora: "12:00", tarefa: "Lunch" },
-                { hora: "14:00", tarefa: "Rural Tourism" },
-                { hora: "17:00", tarefa: "Return" },
+                { hora: "14:00", tarefa: "Rural Tourism Experience" },
+                { hora: "17:00", tarefa: "Return to Camp" },
                 { hora: "19:00", tarefa: "Dinner" },
-                { hora: "20:30", tarefa: "Lecture/Discussion of Topics" },
+                { hora: "20:30", tarefa: "Topic Discussion" },
               ]}
             />
           }
@@ -50,19 +47,18 @@ const App: React.FC = () => {
           path="/tarefas3"
           element={
             <Tela3
-              title="20/07"
+              title="20"
               tarefas={[
                 { hora: "7:00", tarefa: "Breakfast" },
                 { hora: "8:00", tarefa: "Visit to Haras Ana Dantas Ranch" },
                 {
                   hora: "12:30",
-                  tarefa: "Lunch - Lions Club headquarters in Boituva",
+                  tarefa: "Lunch at Boituva Lions Club Headquarters",
                 },
                 { hora: "15:00", tarefa: "Return to Itu" },
                 {
                   hora: "18:30",
-                  tarefa:
-                    "Full Moon Horseback Riding and typical dinner at Chácara do Rosário",
+                  tarefa: "Horseback Riding and Dinner at Chácara do Rosário",
                 },
               ]}
             />
@@ -72,7 +68,7 @@ const App: React.FC = () => {
           path="/tarefas4"
           element={
             <Tela3
-              title="21/07"
+              title="21"
               tarefas={[
                 { hora: "7:00", tarefa: "Breakfast" },
                 {
@@ -87,19 +83,16 @@ const App: React.FC = () => {
           path="/tarefas5"
           element={
             <Tela3
-              title="22/07"
+              title="22"
               tarefas={[
                 { hora: "7:00", tarefa: "Breakfast" },
                 { hora: "8:00", tarefa: "Visit to Tatui" },
                 {
                   hora: "12:30",
-                  tarefa: "Lunch at the Lions Club headquarters in Tatui",
+                  tarefa: "Lunch at the Tatui Lions Club Headquarters",
                 },
-                { hora: "17:00", tarefa: "Return" },
-                {
-                  hora: "19:00",
-                  tarefa: "Discussion of Topics/ or Talent Show",
-                },
+                { hora: "17:00", tarefa: "Return to Camp" },
+                { hora: "19:00", tarefa: "Topic Discussion or Talent Show" },
                 { hora: "20:30", tarefa: "Dinner" },
               ]}
             />
@@ -109,7 +102,7 @@ const App: React.FC = () => {
           path="/tarefas6"
           element={
             <Tela3
-              title="23/07"
+              title="23"
               tarefas={[
                 { hora: "6:00", tarefa: "Breakfast" },
                 { hora: "7:00", tarefa: "Departure to Ilhabela" },
@@ -121,10 +114,10 @@ const App: React.FC = () => {
           path="/tarefas7"
           element={
             <Tela3
-              title="24/07"
+              title="24"
               tarefas={[
                 { hora: "7:00", tarefa: "Breakfast" },
-                { hora: "8:00", tarefa: "Beach and tours" },
+                { hora: "8:00", tarefa: "Beach Activities and Tours" },
                 { hora: "19:00", tarefa: "Dinner" },
                 { hora: "20:00", tarefa: "Bonfire" },
               ]}
@@ -135,12 +128,12 @@ const App: React.FC = () => {
           path="/tarefas8"
           element={
             <Tela3
-              title="25/07"
+              title="25"
               tarefas={[
                 { hora: "7:00", tarefa: "Breakfast" },
-                { hora: "8:00", tarefa: "Beach or tour" },
+                { hora: "8:00", tarefa: "Beach or Tour" },
                 { hora: "12:00", tarefa: "Lunch" },
-                { hora: "17:00", tarefa: "Return" },
+                { hora: "17:00", tarefa: "Return to Camp" },
                 { hora: "19:00", tarefa: "Dinner" },
               ]}
             />
@@ -150,14 +143,11 @@ const App: React.FC = () => {
           path="/tarefas9"
           element={
             <Tela3
-              title="26/07"
+              title="26"
               tarefas={[
                 { hora: "7:00", tarefa: "Breakfast" },
-                {
-                  hora: "8:00",
-                  tarefa: "Presentation of Countries / Talent Show",
-                },
-                { hora: "18:00", tarefa: "Camp closure" },
+                { hora: "8:00", tarefa: "Country Presentation/Talent Show" },
+                { hora: "18:00", tarefa: "Camp Closing" },
               ]}
             />
           }
@@ -166,10 +156,10 @@ const App: React.FC = () => {
           path="/tarefas10"
           element={
             <Tela3
-              title="27/07"
+              title="27"
               tarefas={[
                 { hora: "7:00", tarefa: "Breakfast" },
-                { hora: "9:00", tarefa: "Departure for the airport" },
+                { hora: "9:00", tarefa: "Departure for the Airport" },
               ]}
             />
           }
