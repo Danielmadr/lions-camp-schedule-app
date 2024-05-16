@@ -1,0 +1,18 @@
+.tela1-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.tela1-image {
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.tela1-title {
+  margin-top: 20px;
+  font-size: 2rem;
+  text-align: center;
+}

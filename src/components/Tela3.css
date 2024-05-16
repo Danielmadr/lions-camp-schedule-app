@@ -1,0 +1,97 @@
+.tela3-container {
+  padding: 20px;
+}
+
+.tela3-title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.tela3-separator {
+  height: 2px;
+  background-color: #ddd;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.tela3-circle {
+  background-color: #00529c; /* Azul */
+  color: white;
+  border-radius: 50%;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.tela3-circle-text {
+  font-size: 1.2rem;
+}
+
+.tela3-task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.tela3-task-item {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.tela3-task-item.even {
+  background-color: #e0f2ff; /* Azul claro */
+}
+
+.tela3-task-item.odd {
+  background-color: #d1e7ff; /* Azul escuro */
+}
+
+.tela3-task-hora {
+  font-weight: bold;
+}
+
+.tela3-task-text {
+  margin-left: 10px;
+}
+
+.tela3-back-button {
+  background-color: #00529c; /* Azul */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.tela3-back-button:hover {
+  background-color: #0056b3; /* Azul mais escuro */
+}
+
+.task-container {
+  display: flex;
+  align-items: center;
+}
+
+.hora-container {
+  width: 50px;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.tela3-logo {
+  width: auto;
+  height: 50px;
+}
+
+.image-small {
+  width: auto;
+  height: 40px;
+}

@@ -1,0 +1,50 @@
+.tela2-container {
+  height: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.tela2-image-small {
+  width: auto;
+  height: 40px;
+  margin: 10px;
+}
+
+.tela2-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.tela2-buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colunas */
+  gap: 10px; /* Espaçamento entre os botões */
+  margin: 20px 0;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-title {
+  margin-top: 20px;
+  font-size: 2rem;
+  text-align: center;
+  width: 300px;
+}
+
+.tela2-image {
+  width: 300px;
+}
+
+.flag-container {
+  display: flex;
+  justify-content: flex-end;
+}
