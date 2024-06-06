@@ -20,7 +20,7 @@ const App: React.FC = () => {
                 { hora: "17:00", tarefa: "Snack Break" },
                 {
                   hora: "19:00",
-                  tarefa: "Welcome International Dinner and Camp Opening",
+                  tarefa: "Welcome International Banket and Camp Opening",
                 },
               ]}
             />
@@ -33,8 +33,11 @@ const App: React.FC = () => {
               title="19"
               tarefas={[
                 { hora: "7:00", tarefa: "Breakfast" },
-                { hora: "8:00", tarefa: "Educational Trail" },
-                { hora: "12:00", tarefa: "Lunch" },
+                {
+                  hora: "8:00",
+                  tarefa: "Educational Tour Guide About History of Itu ",
+                },
+                { hora: "12:30", tarefa: "Lunch at Pedra Branca Farm" },
                 { hora: "14:00", tarefa: "Rural Tourism Experience" },
                 { hora: "17:00", tarefa: "Return to Camp" },
                 { hora: "19:00", tarefa: "Dinner" },
@@ -50,15 +53,20 @@ const App: React.FC = () => {
               title="20"
               tarefas={[
                 { hora: "7:00", tarefa: "Breakfast" },
-                { hora: "8:00", tarefa: "Visit to Haras Ana Dantas Ranch" },
+                { hora: "8:00", tarefa: "Departure for Boituva" },
+                { hora: "10:00", tarefa: "Visit to Haras Ana Dantas Ranch" },
                 {
                   hora: "12:30",
                   tarefa: "Lunch at Boituva Lions Club Headquarters",
                 },
-                { hora: "15:00", tarefa: "Return to Itu" },
+                { hora: "14:30", tarefa: "Return to Itu" },
                 {
                   hora: "18:30",
-                  tarefa: "Horseback Riding and Dinner at Chácara do Rosário",
+                  tarefa: "Dinner Time",
+                },
+                {
+                  hora: "19:30",
+                  tarefa: "Full Moon Horseback Ride at Chácara do Rosário",
                 },
               ]}
             />
@@ -73,7 +81,27 @@ const App: React.FC = () => {
                 { hora: "7:00", tarefa: "Breakfast" },
                 {
                   hora: "8:00",
-                  tarefa: "Visit to São Paulo - Ipiranga Museum and MASP",
+                  tarefa: "Departure for São Paulo",
+                },
+                {
+                  hora: "9:00",
+                  tarefa: "Visit to Ipiranga Museum",
+                },
+                {
+                  hora: "12:00",
+                  tarefa: "Lunch at Lions Ipiranga?",
+                },
+                {
+                  hora: "14:00",
+                  tarefa: "Visit to MASP Museum",
+                },
+                {
+                  hora: "19:00",
+                  tarefa: "Dinenr at Lions Pacaembu?",
+                },
+                {
+                  hora: "20:00",
+                  tarefa: "Return to Itu",
                 },
               ]}
             />
@@ -86,12 +114,16 @@ const App: React.FC = () => {
               title="22"
               tarefas={[
                 { hora: "7:00", tarefa: "Breakfast" },
-                { hora: "8:00", tarefa: "Visit to Tatui" },
+                { hora: "8:00", tarefa: "Departure to Tatui" },
+                {
+                  hora: "10:00",
+                  tarefa: "Visit to Tatui (conservatory, blood bank, etc)",
+                },
                 {
                   hora: "12:30",
                   tarefa: "Lunch at the Tatui Lions Club Headquarters",
                 },
-                { hora: "17:00", tarefa: "Return to Camp" },
+                { hora: "14:30", tarefa: "Return to Camp" },
                 { hora: "19:00", tarefa: "Topic Discussion or Talent Show" },
                 { hora: "20:30", tarefa: "Dinner" },
               ]}
@@ -106,6 +138,18 @@ const App: React.FC = () => {
               tarefas={[
                 { hora: "6:00", tarefa: "Breakfast" },
                 { hora: "7:00", tarefa: "Departure to Ilhabela" },
+                { hora: "12:30", tarefa: "Lunch at Dr. Osvaldo's House" },
+                {
+                  hora: "15:00",
+                  tarefa: "4 km walk to the Village along the Waterfront",
+                },
+                { hora: "17:00", tarefa: "Municipal Council Session" },
+                { hora: "18:00", tarefa: "Return to accommodations" },
+                {
+                  hora: "17:00",
+                  tarefa:
+                    "Dinner at the President's house, music, performances, etc.",
+                },
               ]}
             />
           }
@@ -117,8 +161,15 @@ const App: React.FC = () => {
               title="24"
               tarefas={[
                 { hora: "7:00", tarefa: "Breakfast" },
-                { hora: "8:00", tarefa: "Beach Activities and Tours" },
-                { hora: "19:00", tarefa: "Dinner" },
+                { hora: "8:00", tarefa: "Boarding on the Schooner" },
+                { hora: "9:00", tarefa: "Snack at Fome Beach." },
+                { hora: "10:00", tarefa: "Beach Activities and Tours" },
+                { hora: "12:30", tarefa: "Lunch..." },
+                { hora: "14:00", tarefa: "Return to Accommodations" },
+                {
+                  hora: "19:00",
+                  tarefa: "Dinner, Junina Party, Music, someone's house",
+                },
                 { hora: "20:00", tarefa: "Bonfire" },
               ]}
             />
@@ -146,8 +197,8 @@ const App: React.FC = () => {
               title="26"
               tarefas={[
                 { hora: "7:00", tarefa: "Breakfast" },
-                { hora: "8:00", tarefa: "Country Presentation/Talent Show" },
-                { hora: "18:00", tarefa: "Camp Closing" },
+                { hora: "**:00", tarefa: "..." },
+                { hora: "18:00", tarefa: "Farewell dinner" },
               ]}
             />
           }
