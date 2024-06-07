@@ -6,13 +6,15 @@
   height: 100vh;
 }
 
-.tela1-image {
-  max-width: 500px;
-  max-height: 500px;
+.tela1-title {
+  margin: 20px 0px;
+  font-size: 1.8rem;
+  text-align: center;
 }
 
-.tela1-title {
-  margin-top: 20px;
-  font-size: 2rem;
+.info {
+  align-items: center;
+  justify-content: center;
   text-align: center;
+  margin: 20px 0px;
 }

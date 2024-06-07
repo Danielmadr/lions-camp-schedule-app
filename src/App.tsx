@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Loading from "./components/LoadingPage/Loading";
 import Calendar from "./components/CalendarPage/Calendar";
 import Schedule from "./components/SchedulePage/Schedule";
+import "./App.css";
 
 const App: React.FC = () => {
   return (
