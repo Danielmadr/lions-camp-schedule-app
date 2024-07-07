@@ -14,10 +14,15 @@ const Loading: React.FC = () => {
       />
       <h1 className="tela1-title">15th BRAZIL LIONS TRAVEL YOUTH CAMP 2024</h1>
       <div className="info">
-        <h3>DISTRICTS LC2 - LC3 - LC5 -LC6</h3>
-        <h3>Hosting Clubs: Itu , Ilhabela,...</h3>
+        <h3 style={{ marginBottom: "10px", fontSize: "1.3rem" }}>
+          Host Club: <br /> Lions Club Itu
+        </h3>
+        <h3 style={{ marginBottom: "10px" }}>
+          Supporting Lions Clubs: <br /> Ilhabela, Tatuí, Boituva
+        </h3>
+        <h4>Districts: LC2 - LC3 - LC5 - LC6</h4>
       </div>
-      <Button label="Activity Plan" link="/calendar" />
+      <Button label="Activity Schedule" link="/calendar" />
     </div>
   );
 };

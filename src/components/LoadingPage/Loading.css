@@ -4,10 +4,11 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
+  padding: 10px;
 }
 
 .tela1-title {
-  margin: 20px 0px;
+  margin: 5px 0px;
   font-size: 1.8rem;
   text-align: center;
 }
