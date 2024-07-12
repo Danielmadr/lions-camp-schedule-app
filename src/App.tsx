@@ -125,14 +125,14 @@ const App: React.FC = () => {
               title="22"
               tarefas={[
                 { hora: "07:00 AM", tarefa: "Breakfast" },
-                { hora: "08:00 AM", tarefa: "Departure to Tatui" },
+                { hora: "08:00 AM", tarefa: "Departure to Tatuí" },
                 {
                   hora: "10:00 AM",
                   tarefa: "Visit to the 'Paulo Setúbal' Historical Museum",
                 },
                 {
                   hora: "12:30 PM",
-                  tarefa: "Lunch at the Tatui Lions Club Headquarters",
+                  tarefa: "Lunch at the Tatuí Lions Club Headquarters",
                 },
                 {
                   hora: "02:00 PM",
