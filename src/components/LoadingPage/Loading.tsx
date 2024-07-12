@@ -18,7 +18,7 @@ const Loading: React.FC = () => {
           Host Club: <br /> Lions Club Itu
         </h3>
         <h3 style={{ marginBottom: "10px" }}>
-          Supporting Lions Clubs: <br /> Ilhabela, Tatuí, Boituva
+          Supporting Lions Clubs: <br /> Ilhabela, Tatuí, Boituva, São José dos Campos
         </h3>
         <h4>Districts: LC2 - LC3 - LC5 - LC6</h4>
       </div>
