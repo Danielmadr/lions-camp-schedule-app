@@ -20,7 +20,6 @@ const App: React.FC = () => {
                 { hora: "02:00 PM", tarefa: "Arrival and Registration" },
                 { hora: "04:00 PM", tarefa: "Welcome and Camp Orientation" },
                 { hora: "04:30 PM", tarefa: "Snack Break" },
-                { hora: "05:00 PM", tarefa: "Country Presentations" },
                 {
                   hora: "07:00 PM",
                   tarefa: "Welcome International Banquet and Camp Opening",
@@ -42,10 +41,11 @@ const App: React.FC = () => {
                 },
                 { hora: "12:30 PM", tarefa: "Lunch at Pedra Branca Farm" },
                 { hora: "02:00 PM", tarefa: "Visit to the Mayor" },
-                { hora: "05:00 PM", tarefa: "Return to Camp" },
+                { hora: "03:30 PM", tarefa: "Return to Camp" },
+                { hora: "04:00 PM", tarefa: "Country Presentations" },
                 { hora: "06:00 PM", tarefa: "Dinner" },
                 {
-                  hora: "07:00 PM",
+                  hora: "07:30 PM",
                   tarefa: "Full Moon Horseback Ride at Chácara do Rosário",
                 },
               ]}
@@ -103,16 +103,20 @@ const App: React.FC = () => {
                   tarefa: "Visit to Japan House",
                 },
                 {
-                  hora: "03:30 PM",
+                  hora: "04:00 PM",
                   tarefa: "Tour of the Vibrant Paulista Avenue",
                 },
                 {
-                  hora: "07:00 PM",
-                  tarefa: "Dinner at Lions Pacaembu",
+                  hora: "06:00 PM",
+                  tarefa: "Return to Itu",
                 },
                 {
                   hora: "08:00 PM",
-                  tarefa: "Return to Itu",
+                  tarefa: "Dinner",
+                },
+                {
+                  hora: "09:00 PM",
+                  tarefa: "Gustavo Presentation",
                 },
               ]}
             />
@@ -162,7 +166,7 @@ const App: React.FC = () => {
               tarefas={[
                 { hora: "06:00 AM", tarefa: "Breakfast" },
                 { hora: "07:00 AM", tarefa: "Departure to Ilhabela" },
-                { hora: "10:00 AM", tarefa: "Group Discussions and Orientations" },
+                { hora: "11:00 AM", tarefa: "Group Discussions and Orientations" },
                 { hora: "12:30 PM", tarefa: "Lunch at Dr. Osvaldo's House" },
                 {
                   hora: "03:00 PM",
@@ -174,11 +178,6 @@ const App: React.FC = () => {
                   hora: "07:00 PM",
                   tarefa:
                     "Dinner at the President's house",
-                },
-                {
-                  hora: "08:00 PM",
-                  tarefa:
-                    "Group Discussions and Reflections",
                 },
               ]}
             />
@@ -196,11 +195,12 @@ const App: React.FC = () => {
                 { hora: "10:00 AM", tarefa: "Beach Activities and Tours" },
                 { hora: "12:30 PM", tarefa: "Lunch" },
                 { hora: "02:00 PM", tarefa: "Return to Accommodations" },
+                { hora: "04:00 PM", tarefa: "Group Discussions and Reflections" },
                 {
                   hora: "07:00 PM",
-                  tarefa: "Dinner / Julina Party with Music",
+                  tarefa: "Dinner / Julina Party",
                 },
-                { hora: "08:00 PM", tarefa: "Evening Campfire / Group Discussions and Reflections" },
+        
               ]}
             />
           }
@@ -214,11 +214,10 @@ const App: React.FC = () => {
                 { hora: "07:00 AM", tarefa: "Breakfast" },
                 { hora: "08:00 AM", tarefa: "Visit to the Mayor and the President of the City Council of Ilhabela" },
                 {hora: "11:00 AM", tarefa: "Snack Break" },
-                { hora: "12:00 PM", tarefa: "Return to Itu" },
-                { hora: "03:00 PM", tarefa: "Group Discussions and Reflections" },
+                { hora: "12:30 PM", tarefa: "Return to Itu" },
                 { hora: "05:00 PM", tarefa: "Free Time" },
                 { hora: "05:00 PM", tarefa: "Dinner" },
-                { hora: "19:00 PM", tarefa: "Country Night Gathering" },
+                { hora: "19:00 PM", tarefa: "Karaoke Night" },
               ]}
             />
           }
@@ -229,11 +228,11 @@ const App: React.FC = () => {
             <Schedule
               title="26"
               tarefas={[
-                { hora: "08:00 AM", tarefa: "Breakfast" },
-                { hora: "09:00 AM", tarefa: "Free time" },
-                { hora: "11:00 AM", tarefa: "Barbecue" },
+                { hora: "07:00 AM", tarefa: "Breakfast" },
+                { hora: "08:00 AM", tarefa: "Free time" },
+                { hora: "12:00 AM", tarefa: "Barbecue" },
                 { hora: "02:00 PM", tarefa: "Free Time" },
-                { hora: "08:00 PM", tarefa: "Farewell 😢" },
+                { hora: "06:00 PM", tarefa: "Farewell 😢" },
               ]}
             />
           }
